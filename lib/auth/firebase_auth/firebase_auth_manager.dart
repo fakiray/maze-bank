@@ -287,7 +287,7 @@ class FirebaseAuthManager extends AuthManager
       logFirebaseAuthEvent(userCredential?.user, authProvider);
       return userCredential == null
           ? null
-          : AsdfgFirebaseUser.fromUserCredential(userCredential);
+          : BankFirebaseUser.fromUserCredential(userCredential);
     } on FirebaseAuthException catch (e) {
       final errorMsg = switch (e.code) {
         'email-already-in-use' =>

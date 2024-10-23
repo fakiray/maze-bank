@@ -1,4 +1,4 @@
-package firebase.mealplanner.io
+package com.mycompany.bank
 
 import io.flutter.embedding.android.FlutterActivity
 
